@@ -21,18 +21,18 @@
 ---
 
 ## 架构图
-输入 Token (B, T) → Layer 1 (512, Pr倾向) → 预测 t+1 token
-↓ 预测误差
-Layer 2 (512) → 预测 3步后语义
-↓ 预测误差
-Layer 3 (512) → 预测 5-8步后语义
-↓ 预测误差
-Layer 4 (512, Al倾向) → 预测全局一致性
-│
-冲突检测: |L1 - L4| > 阈值?
-是 → IZ循环反思 (3步自激)
-│
-四层表征拼接 → 最终预测
+输入 Token (B, T) → Layer 1 (512, Pr倾向) → 预测 t+1 token  
+↓ 预测误差  
+Layer 2 (512) → 预测 3步后语义  
+↓ 预测误差  
+Layer 3 (512) → 预测 5-8步后语义  
+↓ 预测误差  
+Layer 4 (512, Al倾向) → 预测全局一致性  
+│  
+冲突检测: |L1 - L4| > 阈值?  
+是 → IZ循环反思 (3步自激)  
+│  
+四层表征拼接 → 最终预测  
 
 ---
 
@@ -79,7 +79,6 @@ Layer 4 (512, Al倾向) → 预测全局一致性
 `n
 ---
 
-```
 
 ## 快速开始
 
@@ -99,15 +98,16 @@ cd PrAlmodel
 conda create -n pral python=3.10 -y
 conda activate pral
 pip install -r requirements.txt
+```
 快速训练（10%数据，约10分钟/epoch）
-python train_10pct.py
+```python train_10pct.py```
 完整训练（100%数据）
-python train_full.py
+```python train_full.py```
 评估模型
-python eval_real.py
+```python eval_real.py```
 与 GPT-2 对比
-python gpt2_baseline.py
-python compare_sota.py
+```python gpt2_baseline.py```
+```python compare_sota.py```
 实验历程
 Lissajous轨迹预测 — 验证Pr-Al梯度轴的基本可行性
 Copy任务记忆 — 测试长程记忆能力
