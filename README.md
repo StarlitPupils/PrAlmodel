@@ -100,16 +100,16 @@ conda create -n pral python=3.10 -y
 conda activate pral
 pip install -r requirements.txt
 ```  
-快速训练（10%数据，约10分钟/epoch）  
+### 快速训练（10%数据，约10分钟/epoch）  
 ```python train_10pct.py```  
-完整训练（100%数据）  
+### 完整训练（100%数据）  
 ```python train_full.py```  
-评估模型  
+### 评估模型  
 ```python eval_real.py```  
-与 GPT-2 对比  
+### 与 GPT-2 对比  
 ```python gpt2_baseline.py```  
 ```python compare_sota.py```  
-实验历程  
+## 实验历程  
 Lissajous轨迹预测 — 验证Pr-Al梯度轴的基本可行性  
 Copy任务记忆 — 测试长程记忆能力  
 异常序列检测 — 冲突信号异常检测 AUC=0.99  
@@ -119,7 +119,7 @@ Copy任务记忆 — 测试长程记忆能力
 五大类脑机制集成 — 赫布、多巴胺、好奇心、睡眠、侧向抑制  
 SOTA对比 — wikitext-103 PPL=3.2，接近GPT-2 Small  
 
-下一步路线图  
+## 下一步路线图  
  扩大epoch数（10→100），进一步提升PPL  
  超参数搜索（学习率、层数、神经元数）  
  IZ循环参与梯度训练  
@@ -129,16 +129,16 @@ SOTA对比 — wikitext-103 PPL=3.2，接近GPT-2 Small
  与世界模型结合（预测物理/社会规律）  
  LAMBADA/HellaSwag推理基准测试  
  
-参考文献  
+## 参考文献  
 Brain-wide mapping reveals dual-gradient architecture of primate cortex. Science, April 17, 2026.  
 Rao & Ballard (1999). Predictive coding in the visual cortex.  
 Friston (2005). A theory of cortical responses.  
 Hassabis et al. (2017). Neuroscience-inspired artificial intelligence.  
 Hinton (2022). The forward-forward algorithm.  
 
-作者  
+## 作者  
 StarlitPupils  
-许可证  
+## 许可证  
 MIT License  
   
 "我们不是在现有架构上修修补补，而是从零开始，模拟大脑最基本的组织原则——让智能从结构中自发涌现。"  
