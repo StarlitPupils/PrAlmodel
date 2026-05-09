@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+env/
+venv/
+pkgs/
+pip_cache/
+
+# 模型权重（太大，不适合 Git）
+*.pt
+*.pth
+*.bin
+checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 训练日志和缓存
+*.log
+comparison_results.json
+comparison_v2_results.json
+comparison_v3_results.json
+comparison_v4_results.json
+comparison_v5_results.json
+anomaly_comparison_results.json
+training_history.json
+
+# 数据文件（太大）
+*.csv
+*.arrow
+mutation_info.txt
+trajectory_data.csv
+data_sample.png
+
+# 临时修复脚本
+_fix_*.py
