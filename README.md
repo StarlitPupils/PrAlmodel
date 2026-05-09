@@ -1,4 +1,4 @@
-﻿# Project Neural Genesis — Pr-Al 发育式类脑人工智能架构
+# Project Neural Genesis — Pr-Al 发育式类脑人工智能架构
 
 > **灵感来源**：2026年4月17日《Science》杂志——大脑皮层"双梯度轴"理论（Pr-Al分子梯度轴）
 
@@ -51,7 +51,7 @@ Layer 4 (512, Al倾向) → 预测全局一致性
 ---
 
 ## 项目结构
-PrAlmodel/
+````nPrAlmodel/
 ├── protocortex.py              # 核心架构：4层预测世界模型
 ├── neurons.py                  # 神经元层（含轴向码Pr-Al分化）
 ├── neurons_hierarchical.py     # 层级预测编码神经元
@@ -76,8 +76,7 @@ PrAlmodel/
 ├── eval_real.py                # 标准基准评估
 ├── requirements.txt            # Python依赖
 └── README.md
-
-
+````n
 ---
 
 ## 快速开始
