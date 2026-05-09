@@ -1,4 +1,4 @@
-﻿# Project Neural Genesis — Pr-Al 发育式类脑人工智能架构
+# Project Neural Genesis — Pr-Al 发育式类脑人工智能架构
 > **灵感来源**：2026年4月17日《Science》杂志发表的中科院脑科学论文——大脑皮层"双梯度轴"理论（Pr-Al分子梯度轴）
 ---
 ## 项目概述
