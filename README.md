@@ -131,6 +131,8 @@ Rao & Ballard (1999). Predictive coding in the visual cortex.
 Friston (2005). A theory of cortical responses.
 Hassabis et al. (2017). Neuroscience-inspired artificial intelligence.
 Hinton (2022). The forward-forward algorithm.
+作者
+StarlitPupils
 许可证
 MIT License
 
