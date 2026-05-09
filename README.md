@@ -51,7 +51,7 @@ Layer 4 (512, Al倾向) → 预测全局一致性
 ---
 
 ## 项目结构
-````nPrAlmodel/
+`nPrAlmodel/
 ├── protocortex.py              # 核心架构：4层预测世界模型
 ├── neurons.py                  # 神经元层（含轴向码Pr-Al分化）
 ├── neurons_hierarchical.py     # 层级预测编码神经元
@@ -76,8 +76,10 @@ Layer 4 (512, Al倾向) → 预测全局一致性
 ├── eval_real.py                # 标准基准评估
 ├── requirements.txt            # Python依赖
 └── README.md
-````n
+`n
 ---
+
+```
 
 ## 快速开始
 
